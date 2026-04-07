@@ -9,7 +9,7 @@ export default defineConfig({
     },
   },
   build: {
-    target: 'esnext',
+    target: ['chrome90', 'safari14', 'firefox88'],
     assetsInlineLimit: 0,
     rollupOptions: {
       output: {
