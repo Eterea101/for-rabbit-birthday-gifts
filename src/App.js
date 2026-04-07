@@ -21,7 +21,7 @@ export class App {
       antialias: true,
       resolution: Math.min(window.devicePixelRatio ?? 1, 2),
       autoDensity: true,
-      preference: 'webgpu',
+      preference: 'webgl',
     })
 
     document.getElementById('app').appendChild(this.pixi.canvas)
